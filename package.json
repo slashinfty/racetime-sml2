@@ -1,0 +1,13 @@
+{
+  "name": "racetime-sml2",
+  "version": "1.0.0",
+  "description": "A racetime.gg Node.js bot for Super Mario Land 2 races",
+  "main": "index.js",
+  "repository": "git@github.com:slashinfty/racetime-sml2.git",
+  "author": "slashinfty <matt.braddock@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "ws": "^7.3.1"
+  }
+}
