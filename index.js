@@ -118,7 +118,7 @@ class RaceRoom {
         }
         if (terms[0].toLowerCase() === 'tracker') {
           if (instance.seed === undefined || instance.flags === undefined) {
-            instance.sendMessage('No seed/flags set. Try !roll or !set first.');
+            instance.sendMessage('https://mattbraddock.com/sml2tracker/');
             return;
           } else {
             instance.sendMessage('https://mattbraddock.com/sml2tracker/?s=' + instance.seed + '&f=' + instance.flags);
