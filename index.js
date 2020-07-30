@@ -160,7 +160,7 @@ const getAccessToken = async () => {
   regenTime = data.expires_in * 1e3;
   let reconnects = [];
   currentRaces.forEach((r, i) => {
-    let wsURL = r.url;
+    let wsURL = r.connection.url;
     let wsName = r.name;
     r.connection.close();
     const newConnection = new RaceRoom(wsName, wsURL, true);
