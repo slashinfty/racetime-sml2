@@ -7,4 +7,4 @@ A racetime.gg Node.js bot for Super Mario Land 2 races
 
 `!set {url}` - set the race info to a specific seed. Must use the share link to a generated seed.
 
-`!tracker` - get a link to the [SML2 tracker](https://mattbraddock.com/sml2tracker) (requires `!roll` or `!set` first).
+`!tracker` - get a link to the [SML2 tracker](https://mattbraddock.com/sml2tracker) (if you have done `!roll` or `!set`, it will give a link that will auto-populate the seed and flags).
