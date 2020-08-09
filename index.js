@@ -92,10 +92,10 @@ class RaceRoom {
           // send message and update info
           room.sendMessage(link);
           this.send(JSON.stringify({
-              'action': 'setinfo',
-              'data': {
-                'info': terms[1].toLowerCase().replace(/^\w/, c => c.toUpperCase()) + ': ' + link
-              }
+            'action': 'setinfo',
+            'data': {
+              'info': terms[1].toLowerCase().replace(/^\w/, c => c.toUpperCase()) + ': ' + link
+            }
           }));
         }
         
